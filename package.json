@@ -1,6 +1,6 @@
 {
   "name": "circleci_build_status",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Monitor the status of your CircleCI Builds directly in page.",
   "main": "index.js",
   "module": "index.js",
