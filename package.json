@@ -1,0 +1,21 @@
+{
+  "name": "circleci_build_status",
+  "version": "0.1.6",
+  "description": "Monitor the status of your CircleCI Builds directly in page.",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoffreyrobichaux/CircleCIStatus.git"
+  },
+  "author": "Geoffrey Robichaux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geoffreyrobichaux/CircleCIStatus/issues"
+  },
+  "homepage": "https://github.com/geoffreyrobichaux/CircleCIStatus#readme",
+  "dependencies": {}
+}

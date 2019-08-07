@@ -1,0 +1,29 @@
+#circleci_build_status {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: gray;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#circleci_build_status.enabled {
+    display: block;
+}
+
+#circleci_build_status.pending {
+    background-color: yellow;
+}
+
+#circleci_build_status.failed {
+    background-color: red;
+}
+
+#circleci_build_status.successful {
+    background-color: green;
+}
+
